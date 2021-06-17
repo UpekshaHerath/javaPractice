@@ -3,7 +3,7 @@ class HelloWorld{
 
 		System.out.println("Hello Java!!");
 		for(int i = 0 ; i < 5; i++){
-			System.out.println("Gitnub practice!!");
+			System.out.println("Github practice!!");
 		
 		}
 
