@@ -1,2 +1,2 @@
 # javaPractice
-This repository includes my java practice problems
+This repository includes my java practice problems.
