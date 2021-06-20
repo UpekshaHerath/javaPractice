@@ -8,6 +8,14 @@ public class Practice2{
 			out.println("this is git");
 		
 		}
+		
+		int j = 0;
+		while(j < 5){
+			
+			out.println("value of j : " + j);
+			j++;
+			
+		}
 
 
 	}
