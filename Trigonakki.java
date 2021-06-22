@@ -13,17 +13,11 @@ class Trigonakki{
 		out.print(num2 + " ");
 		
 		for(int i = 0; i < 10; i++){
-
-			
-			
-			sum = num1 + num2;
+                        sum = num1 + num2;
 			num1 = num2;
 			num2 = sum;
 			
 			out.print(num2 + " ");
-
-	
-
 		}
 
 	}
