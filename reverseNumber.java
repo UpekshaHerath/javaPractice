@@ -2,19 +2,22 @@ import java.util.Scanner;
 
 public class reverseNumber {
     public static void main(String[] args) {
-        try (Scanner input = new Scanner(System.in)) {
-            int number = input.nextInt();
-            
-            int reversedNumber = 0;
-            int temp = number;
-            int lastDigit = 0;
-            for (int i = 0; temp < 0; i++) {
-                lastDigit = temp % 10;
-                temp = temp / 10;
-                reversedNumber =  (10 ^ i)* lastDigit;
-                System.out.println(reversedNumber);
-            }
-            System.out.println(reversedNumber);
-        }
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the value : ");
+        int value = input.nextInt();
+        System.out.println(reverse(value));
+        input.close();
     }
+    public static int reverse(int valueToReverse) {
+        int temp = valueToReverse;
+        int newNumber = 0;
+        while (temp != 0) {
+            int lastNum = temp % 10; // this will take the last number
+            temp = temp / 10; // remove the last number
+            newNumber = newNumber * 10 + lastNum;
+        }
+        return newNumber;
+    }
+
+    
 }
