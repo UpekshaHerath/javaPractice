@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pairsCount2",
+            "request": "launch",
+            "mainClass": "pairsCount2",
+            "projectName": "programming questions_6d0b198d"
+        },
+        {
+            "type": "java",
             "name": "reverseString2",
             "request": "launch",
             "mainClass": "reverseString2",
