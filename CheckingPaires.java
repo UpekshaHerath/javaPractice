@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+// This is not working properly
+
 public class CheckingPaires {
     public static void main(String[] args) {
          int[] socks = {1, 2, 3, 2, 1, 3, 1, 2, 3, 1}; // Example input
