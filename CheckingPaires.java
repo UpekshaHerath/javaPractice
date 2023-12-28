@@ -4,7 +4,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-// This is not working properly
+/* 
+Check the pairs in a given array which the sum of the pairs equal to that given value. 
+conditions : Given array is consist with the duplicates and also it is a unsorted array. 
+*/ 
 
 public class CheckingPaires {
     public static void main(String[] args) {

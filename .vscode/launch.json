@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "RemoveDuplicates",
+            "projectName": "javaPractice_778b105f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplictes",
+            "request": "launch",
+            "mainClass": "RemoveDuplictes",
+            "projectName": "javaPractice_778b105f"
+        },
+        {
+            "type": "java",
             "name": "pairsCount2",
             "request": "launch",
             "mainClass": "pairsCount2",
